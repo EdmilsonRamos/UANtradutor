@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="../_css/sessaoiniciada.css">
+    <title>iniciou sessão</title>
+</head>
+<body>
+    
+    <nav class="navbar bg-light navbar-light navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand disabled" ><span>UAN</span>Tradutor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">Menu</button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav ms-auto">
+                    <div class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><img id="perfil" src="../_imagens/icons8_user_32.png" alt=""></a>
+                        <ul class="dropdown-menu">
+                            <p id="perfil"></p>
+                            <li><a href="#" class="dropdow-item"><img src="" alt=""> Editar perfil</a></li>
+                            <li><a href="paginainicial.html" class="dropdow-item"><img src="../_imagens/excluir.png" alt=""> Sair da conta</a></li>
+                        </ul>
+    
+                    </div>
+                    <a href="#" class="nav-link" id="hist">Histórico</a>
+                    <a href="#" class="nav-link disabled">Dicionário</a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+                <div id="corpo" class="r">
+               
+                </select>
+                <div id="net">
+                <div class="content">
+                    <input type="file" name="" id="arquivo">
+                    <div class="divSelects">
+                        <select class="idioma" id="detecao"></select>
+                        <img src="../_imagens/troca.png" alt="foto" id="inverter">
+                        <select class="idioma" id="traduzClick"></select>
+                    </div>
+                    <div class="divTextareas">
+                        <textarea id="areaescrita" rows="8" placeholder="Escrever" autofocus ></textarea>
+                        <textarea id="areatraducao" rows="8" placeholder="Tradução" disabled></textarea>
+                    </div>
+                    <div class="divArticule">
+                        <article>
+                        <img src="../_imagens/micro_mudo.png" alt="" id="micro">
+                        <img src="../_imagens/alto-falante-mudo.png" alt="" id="altofalante">
+                        <img src="../_imagens/envio.png" alt="" id="partilha1"></article>
+                        
+                        <article>
+                            <img src="../_imagens/alto-falante-mudo.png" alt="" id="altofalante2">
+                            <img src="../_imagens/envio.png" alt="" id="partilha2"></article>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="ladodireito" class="r"><p>Histórico</p> </div>
+
+    <script src="../_js/countries.js"></script>
+    <script src="../_js/sessaoiniciada.js"></script>
+</body>
+</html>

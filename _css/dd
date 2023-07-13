@@ -1,0 +1,31 @@
+section{
+    
+    text-align: center;
+}
+input{
+    width: 450px;
+    height: 250px;
+    text-indent: 5px;
+    margin-left: 10px;
+    border-radius: 60px;
+    border: none;
+    max-width: 100%;
+    font-size: 20pt;
+    
+}
+#a{
+    width: 400px;
+}
+#b{
+    width: 400px;
+}
+#c{
+    width: 400px;
+}
+#centro{
+    background-color: rgb(223, 223, 223);
+    text-indent: 10px;
+}
+#lado1{
+    float: left;
+}

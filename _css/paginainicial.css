@@ -1,0 +1,130 @@
+body{
+    font-family: Tahoma, sans-serif;
+    background-color: darkgrey;
+    max-width: 100%;
+
+}
+span{
+    color: dodgerblue;
+    font-size: 20pt;
+}
+div a img#perfil{
+    background-color: darkgrey;
+    border-radius: 40px;
+    max-width: 100%;
+}
+li{
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0px 10px 0px;
+    height: 50px;
+    max-width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    max-width: 100%;
+}
+#corpo{
+    text-align: center;
+    margin-top: -20px;
+    height: 655px;
+    width: 1365px;
+    max-width: 100%;
+    background-image: url("../_imagens/v1.jpg");
+}
+section#meio{
+    margin: 150px auto;
+    width: 600px;
+    height: 300px;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 40px;
+    max-width: 100%;
+}
+section:hover{
+    background-color: rgba(72, 72, 72, 0.3);
+    transition:  background-color 0.5s;
+    border: none;
+    max-width: 100%;
+}
+/*a{
+    margin: 150px auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 130px;
+    text-transform: uppercase;
+}
+a:hover{
+    font-size: 10pt;
+}*/
+#dd{
+    margin: 150px auto;
+    margin-right: 30px;
+    width: 130px;
+    text-transform: uppercase;
+    max-width: 100%;
+}
+#dd:hover{
+    font-size: 10pt;
+}
+
+#aa{
+    margin: 150px auto;
+    margin-left: 30px;
+    width: 130px;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+#aa:hover{
+    font-size: 10pt;
+}
+article{
+    margin-top: 30px;
+    margin-left: 15px;
+    border: 1px solid rgb(206, 203, 203);
+    height: 120px;
+    font-size: 15pt;
+    text-align: left;
+    width: 800px;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(26, 121, 159);
+}
+article:hover{
+    background-color: rgba(72, 72, 72, 0.2);
+    transition: background-color 1s;
+    text-decoration: underline;
+}
+.arti{
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+}
+article a{
+    text-decoration: none;
+    max-width: 100%;
+}
+img.i{
+    margin-right: 10px;
+}
+#a{
+    display: none;
+    max-width: 100%;
+    text-align: center;
+}
+#b{
+    display: none;
+    max-width: 100%;
+    text-align: center;
+}
+#c{
+    display: none;
+    max-width: 100%;
+    text-align: center;
+}
+#d{
+    display: none;
+    max-width: 100%;
+    text-align: center;
+}

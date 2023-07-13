@@ -1,0 +1,111 @@
+body{
+    font-family: Tahoma, sans-serif;
+    background-color: rgb(239, 243, 243);
+    max-width: 100%;
+
+}
+#corpo{
+    margin-top: 80px;
+    width: 1000px;
+    max-width: 100%;
+}
+#ladodireito{
+    width: 300px;
+    background-color: aqua;
+    height: 200px;
+    text-indent: 5px;
+    margin-left: 14px;
+    box-shadow: 1px 1px 4px black;
+    display: none;
+}
+#ladodireito p{
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-size: 15pt;
+}
+.r{
+    display: inline-block;
+}
+span{
+    color: dodgerblue;
+    font-size: 20pt;
+}
+div a img#perfil{
+    background-color: darkgrey;
+    border-radius: 40px;
+}
+li{
+    padding: 10px 0px 10px 0px;
+    height: 50px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+#net{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.content{
+    padding: 15px;
+    box-shadow: 0px 1px 2px black;
+    background-color: #dddddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 100%;
+    margin-left: 30px;
+}
+.divSelects{
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+}
+select{
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    border-color: rgb(124, 124, 124);
+    border-radius: 5px;
+    max-width: 100%;
+}
+.divTextareas{
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+textarea{
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 5px;
+    resize: none;
+    width: 500px;
+}
+
+.divArticule{
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+article{
+    padding: 5px;
+    margin-left: 0px;
+    width: 50%;
+    max-width: 100%;
+}
+article img{
+    margin: 0px 10px 0px 10px;
+}

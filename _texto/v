@@ -1,0 +1,35 @@
+
+                    <div id="centro">
+                        <div id="b" class="form-floating">
+                            <select name="" id="escrita" class="form-select" placeholder=" ">
+                                <option value=""></option>
+                                <option value="">Idioma 1</option>
+                                <option value="">Idioma 2</option>
+                                <option value="">Idioma 3</option>
+                                <option value="">Idioma 4</option>
+                            </select><label for="escrita">Idioma escrita</label></div>
+                    
+    
+                            <div id="c" class="form-floating">
+                                <select name="" id="tradutor" class="form-select" placeholder=" ">
+                                    <option value=""></option>
+                                    <option value="">Idioma 1</option>
+                                    <option value="">Idioma 2</option>
+                                    <option value="">Idioma 3</option>
+                                    <option value="">Idioma 4</option>
+                                </select><label for="tradutor">Idioma tradução</label></div>
+                            
+                    <section>
+                    <article id="lado1">
+                        <input type="text" name="" id="" placeholder="Escrever">
+                    <p><img src="../_imagens/icons8_microphone_32.png" alt="Foto">
+                        <img src="../_imagens/icons8_share_3_32.png" alt="Foto"></p> 
+                    </article>
+                <article id="lado2">
+                    <input type="text" name="" id="" placeholder="Tradução">
+                
+                        <p><img src="../_imagens/icons8_no_audio_32.png" alt="Foto">
+                        <img src="../_imagens/icons8_share_3_32.png" alt="Foto"></p>
+                </article>
+            </section>
+                </div>
